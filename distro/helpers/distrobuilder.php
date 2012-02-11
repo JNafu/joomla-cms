@@ -322,7 +322,7 @@ class DistroBuilderHelper
 
 	private static function zipIt($pathBuild)
 	{
-		$pathTemp = $pathBuild . '/temp';
+		$pathTemp = JPath::clean($pathBuild . '/temp');
 		$pathZip = $pathBuild.'/zips';
 
 		JFolder::create($pathZip);
@@ -338,6 +338,7 @@ class DistroBuilderHelper
 		foreach($files as $file)
 		{
 			$name = str_replace($pathTemp, '', $file);
+			$name = trim($name, '/'.DIRECTORY_SEPARATOR);
 			$zip->addFile($file, $name);
 		}
 

@@ -1,0 +1,87 @@
+@CHARSET "UTF-8";
+/**
+ * @version SVN: $Id: l0gvi3w.css 468 2011-07-29 18:35:16Z elkuku $
+ * @package    L0gVi3w
+ * @subpackage CSS
+ * @author     Nikolai Plath {@link http://nik-it.de}
+ * @author     Created on 17-Jul-2011
+ * @license    GNU/GPL
+ */
+body {
+    background-color: #9acd32;
+}
+
+h1 {
+    color: #665555;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 10px;
+
+    margin-top: 1em;
+}
+
+th {
+    background-color: #eee;
+}
+
+tr.row0 {
+    background-color: #ccff99;
+}
+
+tr.row1 {
+}
+
+a.command {
+    border: 1px solid silver;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    color: black;
+    text-decoration: none;
+    border-radius: 7px;
+    background-color: white;
+}
+
+a.command:hover {
+    background-color: #ffc;
+}
+
+dt.message, dt.warning, dt.error {
+    display: none;
+}
+
+dd.message {
+    padding: 1em;
+    border-radius: 10px;
+    background-color: #ccff99;
+    border: 2px solid #006400;
+}
+
+dd.error.message {
+    background-color: #cc7777;
+    border: 2px solid #cc0000;
+}
+
+dd.warning.message {
+    background-color: #ffe5b2;
+    border: 2px solid orange;
+}
+
+a.icon-joomla {
+    padding-left: 20px;
+    background-image: url("../images/favicon_t.ico");
+    background-repeat: no-repeat;
+}
+
+div.footer {
+    font-size: 0.8em;
+    text-align: center;
+    padding: 0.5em;
+    margin: 0.5em;
+    background-color: #b2b299;
+    border-radius: 10px;
+    border: 2px solid #665555;
+}

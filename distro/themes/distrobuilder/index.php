@@ -5,12 +5,12 @@
 		<jdoc:include type="head" />
 
 		<!--
-        <script src="themes/<?= $this->template ?>/js/mootools-core-1.4.2-full-nocompat.js" type="text/javascript"></script>
-        <script src="themes/<?= $this->template ?>/js/mootools-more-1.4.0.1.js" type="text/javascript"></script>
+        <script src="themes/<?php echo $this->template ?>/js/mootools-core-1.4.2-full-nocompat.js" type="text/javascript"></script>
+        <script src="themes/<?php echo $this->template ?>/js/mootools-more-1.4.0.1.js" type="text/javascript"></script>
 
-		<script src="themes/<?= $this->template ?>/js/<?= $this->template ?>.js" type="text/javascript"></script>
+		<script src="themes/<?php echo $this->template ?>/js/<?php echo $this->template ?>.js" type="text/javascript"></script>
         -->
-		<link href="themes/<?= $this->template ?>/css/<?= $this->template ?>.css" media="screen" rel="stylesheet" type="text/css" />
+		<link href="themes/<?php echo $this->template ?>/css/<?php echo $this->template ?>.css" media="screen" rel="stylesheet" type="text/css" />
 
 	</head>
 	<body>

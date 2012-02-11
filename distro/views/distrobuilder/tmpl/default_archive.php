@@ -18,6 +18,6 @@
 
 <ul>
 <?php foreach($this->archiveFiles as $fileName) : ?>
-	<li><a href="build/zips/<?= $fileName ?>"><?= $fileName ?></a></li>
+	<li><a href="build/zips/<?php echo $fileName ?>"><?php echo $fileName ?></a></li>
 <?php endforeach; ?>
 </ul>
